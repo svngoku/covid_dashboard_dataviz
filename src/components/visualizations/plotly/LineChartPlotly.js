@@ -22,7 +22,7 @@ const PlotlyLine = () => {
         <Plot 
             data={datas}
             layout={
-                {title: "Basic Layout"}
+                {title: "Basic Layout", paper_bgcolor: 'rgb(0, 0, 0)'  }
             }
         />
     );

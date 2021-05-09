@@ -10,6 +10,7 @@ function App() {
     <Router>
         <Switch>
           <Route path="/" component={Home} exact />
+          <Route path="/france"  exact />
         </Switch>
     </Router>
   )

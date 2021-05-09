@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Plot from "react-plotly.js"
 
 
@@ -18,7 +18,9 @@ const BarChart = () => {
                 data={datas}
                 layout={{
                     width: "600", height: "400",
-                    title: "Basic Bar Chart"
+                    title: "Basic Bar Chart",
+                    paper_bgcolor: 'rgb(0, 0, 0)',
+                    plot_bgcolor: 'rgb(0, 0, 0)',
                 }}
             />
         </div>

@@ -8,12 +8,11 @@ import BarChart from "./visualizations/plotly/BarChart";
 import PieChart from "./visualizations/plotly/PieChart";
 import GroupedBarChart from "./visualizations/plotly/GroupedBarChart";
 import MapBoxCountry from "./visualizations/plotly/MapBoxCountry";
-import TimeSeriesRangeSlider from "./visualizations/plotly/TimeSeriesRangeSlider";
+// import TimeSeriesRangeSlider from "./visualizations/plotly/TimeSeriesRangeSlider";
 // import data from "../data/africa_geo.json";
-import MapProjection from './visualizations/MapProjection';
+// import MapProjection from './visualizations/MapProjection';
 import Card from './tailwind/card';
 import Example from './tailwind/tableTailwind';
-import WorldVizMap from "./maps/worldMap";
 import MapWorldCovid from "./visualizations/amcharts/mapWorld";
 
 export default function Main(){
@@ -71,9 +70,6 @@ export default function Main(){
                     <Col >
                         {/* <Spinner animation="border" role="status"></Spinner> */}
                         <PieChart />
-                    </Col>
-                    <Col>
-                        <TimeSeriesRangeSlider />
                     </Col>
                 </Row>
                

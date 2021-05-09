@@ -35,7 +35,9 @@ const CategoricalAxes = () => {
                   yaxis: {
                     title: 'Number of Deaths'
                   },
-                    title: "Number of Deaths by Countries"
+                    title: "Number of Deaths by Countries",
+                    paper_bgcolor: 'rgb(0, 0, 0)',
+                    plot_bgcolor: 'rgb(0, 0, 0)',
             }}
         />
     );

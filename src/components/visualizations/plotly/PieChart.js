@@ -28,7 +28,7 @@ const traceA = {
         color: 'white',
         size: 18
       }
-    }
+    },
   };
 
 
@@ -40,7 +40,9 @@ const PieChart = () => {
             data={datas}
             layout={
               {
-                title: "Area Under Forest for Different Countries",  height: "auto",width: "auto"
+                title: "Area Under Forest for Different Countries",  height: "auto",width: "auto",
+                paper_bgcolor: 'rgb(0, 0, 0)',
+                plot_bgcolor: 'rgb(254, 247, 234)',
               }
             }
         />
